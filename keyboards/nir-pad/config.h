@@ -22,7 +22,7 @@
 #endif
 
 #define VIAL
-#define VIAL_KEYBOARD_NAME "Nirpad"
+#define VIAL_KEYBOARD_NAME "nir-pad"
 #define VIAL_VENDOR_ID 0xCafe
 #define VIAL_PRODUCT_ID 0x4015
 

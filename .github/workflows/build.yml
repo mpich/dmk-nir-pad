@@ -39,7 +39,7 @@ jobs:
           cp -r user_config/keyboards/* dmk/keyboards/
 
           cd dmk
-          ./build_all.sh -b nirpad --mcu nrf52840 -c --uf2
+          ./build_all.sh -b nir-pad --mcu nrf52840 -c --uf2
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4

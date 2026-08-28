@@ -1,6 +1,6 @@
-# dmk-nirpad
+# dmk-nir-pad
 
-Custom keyboard hardware configuration for **Nirpad** (20 direct-pin keys, 30 WS2812 RGB LEDs) based on **[DMK Firmware](https://github.com/aroum/dmk)**.
+Custom keyboard hardware and layout configuration for **nir-pad** (20 direct-pin keys, 30 WS2812 RGB LEDs) based on **[DMK Firmware](https://github.com/aroum/dmk)**.
 
 ## Hardware Specification
 
@@ -46,10 +46,10 @@ Push changes to the `main` or `master` branch and download the `.uf2` binary fro
 git clone https://github.com/aroum/dmk.git
 mkdir -p dmk/keyboards
 
-# Copy nirpad config
-cp -r keyboards/nirpad dmk/keyboards/
+# Copy nir-pad config
+cp -r keyboards/nir-pad dmk/keyboards/
 
 # Build
 cd dmk
-./build_all.sh -b nirpad --mcu nrf52840 -c --uf2
+./build_all.sh -b nir-pad --mcu nrf52840 -c --uf2
 ```

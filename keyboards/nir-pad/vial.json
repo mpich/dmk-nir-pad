@@ -1,5 +1,5 @@
 {
-  "name": "Nirpad",
+  "name": "nir-pad",
   "vendorId": "0xCafe",
   "productId": "0x4015",
   "lighting": "qmk_rgblight",
